@@ -22,7 +22,6 @@ class Solution {
     for (int i=0; i<arr.size(); i++) {
       int sightingType = arr.get(i);
       int numSightings = freqs.containsKey(sightingType) ? freqs.get(sightingType) : 0;
-      
       freqs.put(sightingType, ++numSightings);
     }
 
