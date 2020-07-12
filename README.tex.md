@@ -1,10 +1,12 @@
-# Migratory-Birds
+# Migratory Birds
+
+Click [here](https://www.hackerrank.com/challenges/migratory-birds/problem) to view the problem on the HackerRank website
 
 [![Run on Repl.it](https://repl.it/badge/github/hamza-mughees/Migratory-Birds)](https://repl.it/github/hamza-mughees/Migratory-Birds)
 
 You have been asked to help study the population of birds migrating across the continent. Each type of bird you are interested in will be identified by an integer value. Each time a particular kind of bird is spotted, its id number will be added to your array of sightings. You would like to be able to find out which type of bird is most common given a list of sightings. Your task is to print the type number of that bird and if two or more types of birds are equally common, choose the type with the smallest ID number.
 
-For example, assume your bird sightings are of types ***arr* = [1, 1, 2, 2, 3]**. There are two each of types **1** and **2**, and one sighting of type **3**. Pick the lower of the two types seen twice: type **1**.
+For example, assume your bird sightings are of types $arr = [1, 1, 2, 2, 3]$. There are two each of types $1$ and $2$, and one sighting of type $3$. Pick the lower of the two types seen twice: type $1$.
 
 **Function Description**
 
@@ -16,13 +18,13 @@ migratoryBirds has the following parameter(s):
 
 **Input Format**
 
-The first line contains an integer denoting ***n***, the number of birds sighted and reported in the array ***arr***.  
-The second line describes ***arr*** as ***n*** space-separated integers representing the type numbers of each bird sighted.
+The first line contains an integer denoting $n$, the number of birds sighted and reported in the array $arr$.  
+The second line describes $arr$ as $n$ space-separated integers representing the type numbers of each bird sighted.
 
 **Constraints**
 
-- **5 ≤ *n* ≤ 2 × 10<sup>5</sup>**
-- It is guaranteed that each type is **1**, **2**, **3**, **4**, or **5**.
+- $5\leq n\leq 2\times 10^5$
+- It is guaranteed that each type is $1$, $2$, $3$, $4$, or $5$.
 
 **Output Format**
 
@@ -43,13 +45,13 @@ Print the type number of the most common bird; if two or more types of birds are
 
 The different types of birds occur in the following frequencies:
 
-- Type **1**: **1** bird
-- Type **2**: **0** birds
-- Type **3**: **1** bird
-- Type **4**: **3** birds
-- Type **5**: **1** bird  
+- Type $1$: $1$ bird
+- Type $2$: $0$ birds
+- Type $3$: $1$ bird
+- Type $4$: $3$ birds
+- Type $5$: $1$ bird  
 
-The type number that occurs at the highest frequency is type **4**, so we print **4** as our answer.
+The type number that occurs at the highest frequency is type $4$, so we print $4$ as our answer.
 
 **Sample Input 1**
 ```
@@ -66,10 +68,10 @@ The type number that occurs at the highest frequency is type **4**, so we print 
 
 The different types of birds occur in the following frequencies:
 
-- Type **1**: **2**
-- Type **2**: **2**
-- Type **3**: **3**
-- Type **4**: **3**
-- Type **5**: **1**
+- Type $1$: $2$
+- Type $2$: $2$
+- Type $3$: $3$
+- Type $4$: $3$
+- Type $5$: $1$
 
-Two types have a frequency of **3**, and the lower of those is type **3**.
+Two types have a frequency of $3$, and the lower of those is type $3$.
